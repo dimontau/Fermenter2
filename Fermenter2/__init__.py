@@ -310,6 +310,7 @@ def setup(cbpi):
     :return: 
     '''
     cbpi.plugin.register("Fermenter Spunding Hysteresis", FermenterSpundingHysteresis)
+    cbpi.plugin.register("Fermenter2", Fermenter2)
     cbpi.plugin.register("Fermenter Hysteresis", FermenterHysteresis)
     cbpi.plugin.register("Fermenter Autostart", FermenterAutostart)
 
